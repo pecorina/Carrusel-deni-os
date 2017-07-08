@@ -1,0 +1,121 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;	
+}
+
+body{
+	background-image: url(../img/fondito.jpg);
+}
+/*---------- HEADER ----------*/
+.navbar-default {
+    background-color: #F1AB00;
+    border-color: transparent;
+}
+
+.container-fluid {
+    padding-left: 39%;
+} 
+
+.navbar-default .navbar-brand {
+	color: #EFEFEF;
+	height: 60px;	
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #DA761C;
+}    
+
+.logo{
+	font-size: 30px;
+}
+
+.pet{
+	font-weight: 700;
+}
+
+/*---------- CARRUSEL ----------*/
+
+.carrusel{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+}
+
+ul{
+	list-style-type: none;
+	padding:0px;	
+}
+
+a:focus,
+a:hover{
+	color: #F1AB00;
+	text-decoration: none;
+}
+
+
+.carrusel-prev{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	font-size: 40px;	
+	color: rgba(250,250,250,0.7);
+}
+
+.carrusel-next{
+	position: absolute;
+	right: 10px;
+	top: 50%;	
+	font-size: 40px;	
+	color: rgba(250,250,250,0.7);	
+}
+
+.fa-circle{
+	display: inline-flex;
+	color: rgba(250,250,250,0.7);
+
+}
+
+#el-carrusel{
+	height: 500px;
+	width: 500px;
+}
+
+.carrusel-pages{
+	position: absolute;
+    top: 520px;
+    display: inline-flex;
+}
+
+.selected  a:hover,
+.selected  a:focus{
+	text-decoration: none;
+}
+
+.carrusel-pages li{
+	padding: 0 10px;
+}
+
+.carrusel-pages li a i:hover,
+.carrusel-pages li a i:focus{
+	color: #F1AB00;	
+}
+
+/*---------- FOOTER ----------*/
+
+footer{
+	background-color: #E5E5E5;
+	color: #F1AB00;	
+	font-weight: 600; 
+	margin-bottom: 
+}
+
+
+.el-carrusel{
+	width: 500px;
+	height: 500px;
+}
+
+
